@@ -1,0 +1,24 @@
+
+    <!-- slider container -->
+     <div class="slider" >
+ 
+       <!-- slide 1 -->
+       <div class="slide" *ngFor="let img of imagesUrls; let i=index">
+         <img
+           src="{{img}}" 
+           alt="" 
+         />
+       </div>
+ 
+        <!-- Control buttons -->
+       <button id="mobile-btn-next" class="btn btn-next">></button>
+       <button id="mobile-btn-prev" class="btn btn-prev">< </button>
+
+       
+     </div>
+     <div class="web-btns">
+       <button id="btn-next-web" class="btn btn-next-web" >Next</button>
+       <button  id="btn-prev-web" class="btn btn-prev-web" >Previous </button>
+     </div>
+
+    
