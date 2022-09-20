@@ -40,6 +40,13 @@ Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protrac
 
 
 
+### Desktop view
+(This desktop view)
+![Desktop](https://github.com/umar4sap/carouseltest/blob/main/src/assets/desktop.png?raw=true)
+
+### Mobile view
+(This mobile view)
+![Mobile](https://github.com/umar4sap/carouseltest/blob/main/src/assets/mobile.png?raw=true)
 
 
 
