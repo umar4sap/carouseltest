@@ -73,6 +73,14 @@ display: flex;
     right: 2%;
   }
 
+.web-btns{
+   display: flex;
+   align-items: center;
+   justify-content: center;
+}
+.web-btn {
+    margin-right: 10px;;
+  }
 
 
   @media only screen and (max-width: 768px) {

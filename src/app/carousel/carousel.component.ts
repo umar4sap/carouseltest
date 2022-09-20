@@ -77,7 +77,7 @@ slides.forEach((slide, indx) => {
 nextSlideWeb!.addEventListener("click",  () => {
   // check if current slide is the last and reset current slide
   if (this.curSlide === this.maxSlide) {
-    this.curSlide--;
+    this.curSlide = 0;
   } else {
     this.curSlide++;
   }

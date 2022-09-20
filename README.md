@@ -1,5 +1,21 @@
 # Carouseltest
 
+## Task achived:
+1- Added crosoul with native javascript function
+2-added an array of urls and loop through(we can improve by calling api also as image collection )
+
+## Limitations and improvements:
+3- Slider limit has been set as maxurl.length it can be improved to loop through or fetch more images from backend
+4- to store images urls locally we can use ngrx/redux store
+
+## UI/UX improvements:
+4-UI/UX experience can be improved 
+6-carosoul images active - current active image can show under border to highlight it
+7-pinch zoom functionality can be added when image get hover or active image
+
+## Dependencies:
+1- Used Angular generic and started module 
+
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 11.2.10.
 
 ## Development server
@@ -22,6 +38,8 @@ Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.
 
 Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
 
-## Further help
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+
+
+
+
