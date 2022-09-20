@@ -1,25 +1,20 @@
+<!-- slider container -->
+<div class="slider">
 
-    <!-- slider container -->
-     <div class="slider" >
- 
-       <!-- slide 1 -->
-       <div class="slide" *ngFor="let img of imagesUrls; let i=index">
-         <img
-           src="{{img}}" 
-           alt="" 
-         />
-       </div>
- 
-        <!-- Control buttons -->
-       <button id="mobile-btn-next" class="btn btn-next">></button>
-       <button id="mobile-btn-prev" class="btn btn-prev">< </button>
+    <!-- slide 1 -->
+    <div class="slide" *ngFor="let img of imagesUrls; let i=index">
+        <img src="{{img}}" alt="" />
+    </div>
 
-       
-     </div>
-     <div class="web-btns">
-        <button  id="btn-prev-web" class="web-btn btn-prev-web" >Previous </button>
-       <button id="btn-next-web" class="web-btn btn-next-web" >Next</button>
-      
-     </div>
+    <!-- Control buttons -->
+    <button id="mobile-btn-next" class="btn btn-next">></button>
+    <button id="mobile-btn-prev" class="btn btn-prev">
+        < </button>
 
-    
+
+</div>
+<div class="web-btns">
+    <button id="btn-prev-web" class="web-btn btn-prev-web">Previous </button>
+    <button id="btn-next-web" class="web-btn btn-next-web">Next</button>
+
+</div>
